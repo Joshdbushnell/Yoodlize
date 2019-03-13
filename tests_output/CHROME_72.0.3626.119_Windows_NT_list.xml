@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="1">
+
+  <testsuite name="list"
+    errors="2" failures="1" hostname="" id="" package="list" skipped="0"
+    tests="1" time="5.666" timestamp="">
+  
+    <testcase name="valid" classname="list" time="5.666" assertions="4">
+
+    
+
+    
+
+      <failure message="Expected element &lt;Element [name=@cardTitle]&gt; to have value which contains: &#34;Refrigerator&#34; - element was not found - expected [0;32m&#34;present&#34;[0m but got: [0;31m&#34;not present&#34;[0m">    at searchSite (C:\Users\Josh\Desktop\Yoodlize\tests\list.js:15:17)
+    at Object.valid (C:\Users\Josh\Desktop\Yoodlize\tests\list.js:79:13)</failure>
+
+    <failure message="    at searchSite (C:\Users\Josh\Desktop\Yoodlize\tests\list.js:15:17)">    at Object.valid (C:\Users\Josh\Desktop\Yoodlize\tests\list.js:79:13)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
