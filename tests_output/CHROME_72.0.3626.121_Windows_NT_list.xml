@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="1">
 
   <testsuite name="list"
-    errors="0" failures="1" hostname="" id="" package="list" skipped="0"
-    tests="1" time="5.421" timestamp="">
+    errors="0" failures="0" hostname="" id="" package="list" skipped="0"
+    tests="1" time="5.458" timestamp="">
   
-    <testcase name="valid" classname="list" time="5.421" assertions="2">
+    <testcase name="valid" classname="list" time="5.458" assertions="6">
 
-      <failure message="Timed out while waiting for element &lt;.sc-jqCOkK.iyzLMo.sc-gqjmRU.bAVCBr&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at searchSite (C:\Users\Josh\Desktop\Yoodlize\tests\list.js:8:10)
-    at Object.valid (C:\Users\Josh\Desktop\Yoodlize\tests\list.js:79:13)</failure>
+    
 
-    <failure message="    at searchSite (C:\Users\Josh\Desktop\Yoodlize\tests\list.js:8:10)">    at Object.valid (C:\Users\Josh\Desktop\Yoodlize\tests\list.js:79:13)</failure>
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
   
 

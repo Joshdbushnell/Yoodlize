@@ -19,20 +19,13 @@ var searchSite = (fillout, searchBar,) => {
 }
 
 
-var clickByText = (browser, text) => {
-    browser
-        .useXpath()
-        .click(`//*[text()="${text}"]`)
-        .useCss()
-}
-
 module.exports = {
-    before: browser => {
+    beforeEach: browser => {
         yood = browser.page.objectPage()
         yood.navigate()
-
-
             .waitForElementPresent('@app', 5000)
+            .waitForElementPresent('@beta', 5000)
+            .click('@beta')
     },
     after: browser => {
         browser.end()

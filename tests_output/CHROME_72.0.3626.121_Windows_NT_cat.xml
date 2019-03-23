@@ -5,9 +5,13 @@
 
   <testsuite name="cat"
     errors="0" failures="0" hostname="" id="" package="cat" skipped="0"
-    tests="1" time="14.82" timestamp="">
+    tests="1" time="22.31" timestamp="">
   
-    <testcase name="Categories" classname="cat" time="14.82" assertions="15">
+    <testcase name="Categories" classname="cat" time="22.31" assertions="17">
+
+    
+
+    
 
     
 

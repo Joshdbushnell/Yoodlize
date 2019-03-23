@@ -3,13 +3,12 @@ module.exports = {
     elements: {
         app: '#app',
         searchBar: '.mr-m.b-0.bb-1.b-primary-light.pl-lxx.h-35.pn.t-l',
-        searchButton: '.sc-esjQYD.bonOTJ.sc-ifAKCX.kvYMhQ',
+        searchButton: '.sc-uJMKN.clrdLJ.sc-ifAKCX.kvYMhQ',
         magSearch: '.fal.fa-search',
         noResults: '.NoResults-headingText-2HzHi',
-        search: '.mr-m.b-0.bb-1.b-primary-light.pl-lxx.h-35.pn.t-l',
+        search: '.sc-uJMKN.clrdLJ.sc-ifAKCX.kvYMhQ',
         cardTitle: '.card-title',
-        popup: '.sc-jqCOkK.iyzLMo.sc-gqjmRU.bAVCBr',
-        keyword: '.sc-kaNhvL.kwEqLx',
+        keyword: '.sc-kaNhvL.kwEqLx', 
         cardTitle: '#card-title',
         advanced: '.sc-jqCOkK.NqsLm.sc-gqjmRU.SUbM',
         home: '.Header-brand-2oS_y.Header-brandImg-1BgQy.navbar-brand',
@@ -22,6 +21,7 @@ module.exports = {
         goods: {selector: '(//ins[@class="iCheck-helper"])[2]', locateStrategy: 'xpath'},
         partyfil: {selector: '(//ins[@class="iCheck-helper"])[8]', locateStrategy: 'xpath'},
         exp: {selector: '(//ins[@class="iCheck-helper"])[14]', locateStrategy: 'xpath'},
+        beta: {selector: '//button[text()="Got it"]', locateStrategy: 'xpath'},
 
 
 

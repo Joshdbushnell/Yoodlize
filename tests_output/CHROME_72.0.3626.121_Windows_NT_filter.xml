@@ -5,9 +5,13 @@
 
   <testsuite name="filter"
     errors="0" failures="0" hostname="" id="" package="filter" skipped="0"
-    tests="1" time="3.664" timestamp="">
+    tests="1" time="7.249" timestamp="">
   
-    <testcase name="filter" classname="filter" time="3.664" assertions="16">
+    <testcase name="filter" classname="filter" time="7.249" assertions="18">
+
+    
+
+    
 
     
 
